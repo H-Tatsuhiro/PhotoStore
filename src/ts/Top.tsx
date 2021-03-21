@@ -1,8 +1,8 @@
-import React from 'react';
-
 function Top() {
     return (
-        <h1>Home</h1>
+        <div>
+          <h2>Top</h2>
+        </div>
     )
 }
 

@@ -22,4 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 src/firebase_src/init.ts
-ajax_test/*
+/ajax_test
+src/firebase/config.ts
+/.firebase
