@@ -37,8 +37,6 @@ class LoginForm extends React.Component {
             <div>
               <br />
               {
-                  this.state.user ?
-                  (<button onClick={this.logout}>logout</button>) :
                   (<StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />)
               }
             </div>
